@@ -39,3 +39,13 @@ O código utiliza as seguintes estruturas de dados:
 - **car.png:** Imagem do carro do jogador.
 - **enemy_car.png:** Imagem dos carros adversários.
 - **track.png:** Imagem da pista de corrida.
+
+  ## Integrantes:
+
+RM: 558537 - Luan Ramos
+
+RM: 555189 - Matheus Bortolotto
+
+RM: 556930 - Matheus Ricciotti
+
+RM:556892 - Guilherme Lunghini
