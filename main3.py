@@ -147,10 +147,10 @@ def update():
         score_text.text = f'Pontuação: {int(score)}'  # Atualiza o texto da pontuação
 
         # Movimento lateral do jogador (esquerda/direita)
-        if held_keys['a']:
-            player_car_collider.x -= move_speed
-        if held_keys['d']:
-            player_car_collider.x += move_speed
+        if held_keys['left arrow']:
+            player_car_collider.x -= move_speed * 0.5
+        if held_keys['right arrow']:
+            player_car_collider.x += move_speed * 0.5
 
         # Limitar o carro dentro da pista
         player_car_collider.x = clamp(player_car_collider.x, -2.5, 2.5)
